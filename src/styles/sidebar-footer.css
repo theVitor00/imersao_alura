@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM-Sans", sans-serif;
 }
 
 .library {
@@ -71,7 +71,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +111,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -132,7 +130,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -167,4 +164,47 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+
+.footer-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 8px;
+    background: linear-gradient(to right, #AF2896, #509BF5);
+    width: 100%;
+    height: 86px;
+    margin: 8px;
+}
+
+.footer-subscribe {
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.area-texto .titulo-footer {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.area-texto .texto-footer {
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.button-subscribe {
+    font-weight: 700;
+    height: 48px;
+    width: 185px;
+    margin-top: 9px;
+    border-radius: 25px;
+    border: none;
+    color: #292929;
 }

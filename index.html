@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- reset css-->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <!-- styles main content-->
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <!--variables-->
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <!-- styles sidebar and footer -->
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+
     <!-- font awesome-->
     <script src="https://kit.fontawesome.com/67bb4bfbce.js" integrity="sha512-X1YfKiwt+927FrAVvBFlmE3EGN98N3JOgdhvlCK9kGRoS3kjErvtsby1sF85mhK6GHvqeL+m3k82Dy9SZqLxnw==" crossorigin="anonymous"></script>
 </head>
@@ -15,8 +22,8 @@
     <div class="sidebar">
         <nav class="sidebar_navigation">
             <div class="logo">
-                <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                <a href="#">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
                     <ul>
@@ -66,6 +73,54 @@
             </div>
 
         </div>
+
+    </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+
+                <div class="navigation">
+
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                    </button>
+
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <div class="footer-area">
+
+            <div class="footer footer-subscribe">
+
+                <div class="footer area-texto">
+                    <p class="footer titulo-footer">Testar o Premium de graça</p>
+                    <p class="footer texto-footer">
+                        Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.
+                    </p>
+                </div>
+
+                <div class="footer-button">
+                    <button class="button-subscribe">Inscreva-se grátis</button>
+                </div>
+
+            </div>
 
     </div>
 
